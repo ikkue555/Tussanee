@@ -21,7 +21,7 @@ button3{background:linear-gradient(white,red);
        color:blue;}
 button4{background:linear-gradient(purple,yellow);
        color:white;}
-      section{background:linear-gradient(Hotpink,LightSkyBlue,White);
+      section{background:linear-gradient(limegreen,yellow,White);
               pedding: 15px;
               margin: 20px auto;
               width:  70%;
@@ -41,7 +41,15 @@ button4{background:linear-gradient(purple,yellow);
         50% {box-shadow: 0 0 20px gold;}
         75% {box-shadow: 0 0 20px violet;}
       }
-      
+
+      .blink-bg{
+        animation: blinkbg 1s infinite alternate;
+        padding: 3px 6px;
+      }
+      @keyframes blinkbg{
+        0% {background: yellow;}
+        100% {background: orange;}
+      }
     </style>
   </head>
   <body background="https://static.thairath.co.th/media/dFQROr7oWzulq5Fa5KwI2isdu19iRPXnldao8kTJl1LiyyuehFC0k3XGZpNk096oDlO.jpg">

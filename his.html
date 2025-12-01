@@ -33,6 +33,15 @@ button4{background:linear-gradient(purple,yellow);
         p{text-indent: 2em;}
 
         .zoom:hover{transform:scale(1.5); cursor:pointer;}
+
+      img:hover{animation: glowcolors 1.2s infinite alternate;}
+      @keyframes glowcolors{
+        0% {box-shadow: 0 0 20px hotpink;}
+        25% {box-shadow: 0 0 20px skyblue;}
+        50% {box-shadow: 0 0 20px gold;}
+        75% {box-shadow: 0 0 20px violet;}
+      }
+      
     </style>
   </head>
   <body background="https://static.thairath.co.th/media/dFQROr7oWzulq5Fa5KwI2isdu19iRPXnldao8kTJl1LiyyuehFC0k3XGZpNk096oDlO.jpg">
